@@ -11,15 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 <body>
     <div class="layout-container">
         <!-- section HERO goesfrom here -->
-        <div class="hero-wrapper">
-            <div class="section-hero">
-                <nav class="nav">
+        <section class="hero-wrapper">
+            <div class="section-hero section">
+                <nav class="nav flex-s-b">
                     <div class="nav-logo">
                         <a class="logo-text" href="#">WARIK</a>
                         <span class="vl"></span>
@@ -29,13 +27,16 @@
                         </a>
                     </div>
 
-                    <ul class="nav-bar">
+                    <ul class="nav-bar flex-s-b">
                         <a class="nav-link active-link" href="#">Home</a>
                         <a class="nav-link" href="#">About us</a>
                         <a class="nav-link" href="#">Pricing</a>
                         <a class="nav-link" href="#">Contact us</a>
                         <a class="nav-link nav-button" href="#">Get started</a>
                     </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list menu-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
                 </nav>
 
                 <div class="hero-content">
@@ -47,21 +48,21 @@
                     <a href="#" class="hero-button">LEARN MORE</a>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section FEATURES goes from here -->
-        <div class="features-wrapper">
-            <div class="section-features">
-                <div class="best-features">
-                    <div class="feature-heading">
-                        <h1 class="f-h1">Best of our features</h1>
+        <section class="features-wrapper">
+            <div class="section-features section flex-center">
+                <div class="best-features flex-center">
+                    <div class="heading flex-center">
+                        <h1 class="heading-title">Best of our features</h1>
                         <div class="gl"></div>
-                        <p class="f-text">
+                        <p class="heading-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
                         </p>
                     </div>
                     <div class="feature-list">
-                        <div class="f-card">
+                        <div class="f-card flex-center">
                             <svg width="52" height="52" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="363 930 52 52">
                                 <image
@@ -74,7 +75,7 @@
                                 Aenean eu leo quam. Pellentesque ornare sem.
                             </p>
                         </div>
-                        <div class="f-card">
+                        <div class="f-card flex-center">
                             <svg width="48" height="56" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="727 928 48 56">
                                 <image
@@ -85,7 +86,7 @@
                             <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna,
                                 vel scelerisque nisl consectetur et.</p>
                         </div>
-                        <div class="f-card">
+                        <div class="f-card flex-center">
                             <svg width="56" height="48" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1084 936 56 48">
                                 <image
@@ -155,14 +156,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section TEMPLATE goes from here -->
-        <div class="template-wrapper">
-            <div class="section-template">
-                <div class="template-heading">
-                    <h1 class="f-h1">Looking for the perfect template to use?</h1>
+        <section class="template-wrapper">
+            <div class="section-template section">
+                <div class="heading flex-center">
+                    <h1 class="heading-title">Looking for the perfect template to use?</h1>
                     <div class="gl"></div>
-                    <p class="f-text">
+                    <p class="heading-text">
                         Donec id elit non mi porta gravida at eget metus. </p>
                 </div>
                 <div class="template-body">
@@ -197,10 +198,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section TESTIMONIAL goes from here -->
-        <div class="testimonial-wrapper">
-            <div class="section-testimonial">
+        <section class="testimonial-wrapper">
+            <div class="section-testimonial section">
                 <div class="testimonial-content">
                     <h3 class="main-testimonial-text">
                         This theme is beautiful, elegant and easy to customize.
@@ -215,13 +216,14 @@
                 <div class="testimonial-avatar">
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section DETAILS goes from here -->
-        <div class="details-wrapper">
-            <div class="section-details">
+        <section class="details-wrapper">
+            <div class="section-details section">
                 <div class="details-content">
                     <h1>Built with High Attention to Details</h1>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+
                         ut fermentum massa justo sit amet risus. Praesent commodo cursus magna,
                         vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed
                         consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.
@@ -232,15 +234,15 @@
                 <div class="details-map">
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- section PRICING & PLAN goes from here -->
-        <div class="plan-wrapper">
-            <div class="section-plan">
-                <div class="plan-heading">
-                    <h1 class="f-h1">Pricing & Plan</h1>
+        <section class="plan-wrapper">
+            <div class="section-plan section flex-center">
+                <div class="heading flex-center">
+                    <h1 class="heading-text">Pricing & Plan</h1>
                     <div class="gl"></div>
-                    <p class="f-text">
+                    <p class="heading-text">
                         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
                         Donec id elit non mi porta gravida at eget metus. </p>
                 </div>
@@ -284,8 +286,8 @@
                     </div>
                 </div>
                 <div class="included-services">
-                    <div class="included-heading">
-                        <h3 class="f-h1">Included with all Plans</h3>
+                    <div class="heading flex-center">
+                        <h3 class="heading-title">Included with all Plans</h3>
                         <div class="gl"></div>
                     </div>
                     <div class="included-services-columns">
@@ -377,16 +379,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="need-support">
+                    <div class="heading flex-center">
                         <svg class="need-s-icon" width="44" height="44" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="728 4394 44 44">
                             <image
                                 xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAD7ElEQVRYhdVZvU7jQBBeJNoICZ6AggY4negPgZTgnUUoT4DEAxDv2BShpaTgGSgpUuzOhoYCKcqdgnQPgZB4AnQNP+LnCjtk7dg+b0JO8kgrRc545vN4dubbMWMzkJPe9vxJb3t+FrankrZp1lB5e2jEGRJcI8E9EjwhwUe8nuJr12jEGSpvr22atf8O1FdiCw1cSIJHC1ypJQke0cCFr8TWzIGigh9IcOMKsmDdoIIfXw60bZo1JHH+hUBTS5x/War4RmyghtuUk3ckrpFg4AzOwC8kUJEN67qGW9+IjanAhsQbSPAn6ZT3fcW/M8aYNHDgDFjDPmOM+Yp/R+L91P9/QuKNycFqeLGMPSNByD7Y3FDnUNWXkODNAfBr2OGLn04+2BwShAk/Gl6cQftGbKQi+5C3OTKiVLR6OcHZRIIHO9Kl06NtmrVUzj6EtPstTz8wcFQWcKBFkGcnpN1vCdAabkttxEQ1iF7PZpG+vNxZKQu41fWWi2yFxDeTaSjOi8FGdXYUEQNHRfo+iVUkuHJIiauwy9eKbI69saI6jVZTkAQ/7Q02pmt4K96IrlXiRWrh54L4YHOS4Kd1z012tJTYspTeh6Ur+8H4aQaYgTQcpfLWjzuNheNOY0Eqb10ajphZr/lpnv2o5I3qdGYbRwMXlkGVZ0xq4aec30kN9dyIfd4HdSS4S9xreCtPP9BAIz24SPzZNs1agsgY+IUa9hM1kzEWdvmavSkkwe+0TpGEHb4oCX5boJ99Equ2zqGqL8UNaWD5eUxUDFTeXk7OvSJBL9AiaHW95dQGu3MBa4NORfpKXu6sRJuN9zGvESlvbwQ44rNOm6dMGuRJnB5um9WIsxHgiHy7GBhMCtby6Uqcru2b752iazhOCziuHi6A723AT06Albc+NWDlrTsCfmKMRQdG13w67jQWpgV83GksuPo96W3PVw8wYxVLiRhw5TZdxcpa5RpHfmt+Q+L9wMBRTNRn0ppbXW850CJAgh5GdGAci92ax8gPwUAaODhU9SXbWUzYPznw1ORHw0ua0Icdvoga9uNxwNDP49hxyaaXgQbKcxoTd/vpJ6aXRUQeo9lFnA4peslYBQl8/FSlj0hSCz81tyi7nouIe+kjEmPuh9Cwy9fQ8RCaJuxpcTqEMuZ+zI+JfblSeLmzUhgA12M+YxMMUqJyVApw0RubeJDCWPaoKi/Sce0smRK8n2kjSsXJRlWjJ04NA6PfiWFg3ASyC31OI0rU9uEw0J5vTDIMTIAuGLeihn3XKiENHDA2g3HrUPIH2qDsbuSwBvEw/OsH2kOp1CcDWyrzUSYtlfnslZbKfFj8l8zy0+1fWLoaSJJAp+EAAAAASUVORK5CYII="
                                 width="44" height="44" x="728" y="4394" />
                         </svg>
-                        <h1 class="f-h1">Need Help?</h1>
+                        <h1 class="heading-title">Need Help?</h1>
                         <div class="gl"></div>
-                        <p class="f-text">
+                        <p class="heading-text">
                             Contact our Customer Support that is always ready to help you with any possible
                             questions, problems or information.
                         </p>
@@ -394,10 +396,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section CALL-TO-ACTION  -->
-        <div class="call-to-action-wrapper">
-            <div class="section-call-to-action">
+        <section class="call-to-action-wrapper">
+            <div class="section-call-to-action section flex-s-b">
                 <div class="call-to-action-heading">
                     <h1>Do You Like Wapik? Download it Now</h1>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
@@ -406,7 +408,7 @@
             </div>
         </div>
         <div class="footer-wrapper">
-            <div class="main-footer">
+            <div class="main-footer section">
                 <div class="footer-column">
                     <h4 class="column-heading footer-logo-text">WAPIK</h4>
                     <a class="column-data" href="#">@: <span class="f-email">hi@wapik.com</span></a>
@@ -446,17 +448,17 @@
                     <a class="column-data" href="#"></a>
                 </div>
             </div>
-            <div class="bottom-footer">
+            <div class="bottom-footer section flex-s-b">
                 <a href="#" class="bottom-footer-rights">All rights reserved 2015.</a>
                 <div class="social-links">
-                    <div class="link">
+                    <a href="#" class="link facebook-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-facebook" viewBox="0 0 16 16">
                             <path
                                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                         </svg>
-                    </div>
-                    <div class="link">
+                    </a>
+                    <a href="#" class="link discord-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-discord" viewBox="0 0 16 16">
                             <path
@@ -464,26 +466,28 @@
                             <path
                                 d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
                         </svg>
-                    </div>
-                    <div class="link">
+                    </a>
+                    <a href="#" class="link telegram-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-telegram" viewBox="0 0 16 16">
                             <path
                                 d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
                         </svg>
-                    </div>
-                    <div class="link">
+                    </a>
+                    <a href="#" class="link github-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
                                 d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                         </svg>
-                    </div>
+                    </a>
 
                 </div>
             </div>
         </div>
     </div>
+    <a href="https://psdrepo.com/free-psd/wapik-template-freebie/" class="attribute">psdrepo.com free psds</a>
+    <script src="./app.js"></script>
 </body>
 
 </html>
