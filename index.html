@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<body>
+    <div class="layout-container">
+        <!-- section HERO goesfrom here -->
+        <div class="hero-wrapper">
+            <div class="section-hero">
+                <nav class="nav">
+                    <div class="nav-logo">
+                        <a class="logo-text" href="#">WARIK</a>
+                        <span class="vl"></span>
+                        <a class="logo-phone" href="#">
+                            <!-- icon here -->
+                            +62 202 555 0117
+                        </a>
+                    </div>
+
+                    <ul class="nav-bar">
+                        <a class="nav-link active-link" href="#">Home</a>
+                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link nav-button" href="#">Get started</a>
+                    </ul>
+                </nav>
+
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to Wapik</h1>
+                    <p class="hero-text">
+                        Wapik is multipurpose template, with modern
+                        and smart design. Wapik is perfect template for you!
+                    </p>
+                    <a href="#" class="hero-button">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+        <!-- section FEATURES goes from here -->
+        <div class="features-wrapper">
+            <div class="section-features">
+                <div class="best-features">
+                    <div class="feature-heading">
+                        <h1 class="f-h1">Best of our features</h1>
+                        <div class="gl"></div>
+                        <p class="f-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                        </p>
+                    </div>
+                    <div class="feature-list">
+                        <div class="f-card">
+                            <svg width="52" height="52" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="363 930 52 52">
+                                <image
+                                    xlink:href="data:image/png;base64,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"
+                                    width="52" height="52" x="363" y="930" />
+                            </svg>
+                            <h4>Ionicons</h4>
+                            <p>
+                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                Aenean eu leo quam. Pellentesque ornare sem.
+                            </p>
+                        </div>
+                        <div class="f-card">
+                            <svg width="48" height="56" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="727 928 48 56">
+                                <image
+                                    xlink:href="data:image/png;base64,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"
+                                    width="48" height="56" x="727" y="928" />
+                            </svg>
+                            <h4>Creative Design</h4>
+                            <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna,
+                                vel scelerisque nisl consectetur et.</p>
+                        </div>
+                        <div class="f-card">
+                            <svg width="56" height="48" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1084 936 56 48">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAwCAYAAABE1blzAAAA8UlEQVRoQ+2asQ3CQBAEeUsgUjqgHEKohFagE4fuCsgIQI8cQIKlu5UQGtvr9Ff23M595rJIPMd2VxOxv0fO+65EHw0D/QsmP2DUEvk8ZZA8QMQ2OCB1JaNhhu7kPAeMmhrT+fTv4FjvW3aLymwGfDyb7bJZ3bLN0HO13C8948dgqevN6dBe6eBZvvdmesBsY7ScDdKMqDw2qDZGy9sgzYjKY4NqY7S8DdKMqDw2qDZGy9sgzYjKY4NqY7S8DdKMqDw2qDZGy9sgzYjKY4NqY7S8DdKMqDw2qDZGy9sgzYjKY4NqY7T8l0Ea4K94Jv+XxQu540gw4uXuuQAAAABJRU5ErkJggg=="
+                                    width="56" height="48" x="1084" y="936" />
+                            </svg>
+                            <h4>Photoshop and Sketch</h4>
+                            <p>
+                                Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                Maecenas sed diam eget risus varius blandit sit amet non magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-features">
+                    <div class="other-f-card">
+                        <div class="other-f-card-head">
+                            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="228 1282 30 30">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAFQ0lEQVRIS8VXW2wUVRj+/rPdukWhlIumPBBANEiiFRHFxBjwoTtbaTurYDThgQAWUmS3VYPEBKhKiKIJO0toKFKFgMZ4290W2RkgQIgJBCFcHhofkFsCxFClgFDoOuc3Z3anbre7LSFNnLeZc873/ee/fkO4x6fpwKyirmu+GSwwg5gmATwyfZS6mPisFHR09PDuY02zD/5zL5A02KbGhH+yZGoE8AaAUZn9PQC6AAgwSkHwZr7/BeBbQbxhQ611ZiDsgsQNMX2kRPc6IqoDcJoZm4l4IUDjJEjzMK9IA4sIk9xFjDMs6GuwrAfoSWbeIlDyQSQYVwb2e/ISh2KV04nEDwA8kLLeeHXPrnAi8BaYDQl6dqOe7GiIadsUWiRoLmho8z/Dkg6DscgImjvDP1XOgRDNAGxmOTca3HM8l7kfcUNb4GWW3M7Abi6mRRurkjcav5tXIotvXgTBMGrNtQokm1i9h+L+tQRaUNYzfFLT69/3LN8dGCF68CXAARJUHalJ7s8m70OcuekhgM56S+yZn/v33HJAE/6lxLTeWyLL3W+5xCo0THcuMaE+WmtuV+fesyofTHV7jgA8iVm+lH3zXuLMwRMAroAxGQQBUAtJsZOF3crMJ6NBq961OpfY9QITxpP0LGMh5wO8RLkbwO8Ayol909yY9xKHYv5mAvlTqTsVD2CsbXv/XkwkVTI9rUAZaBfgNgnuKJJFnbawPyIiYmA12xhLHnoCkEEwBdLG8UkQWsXdEa13cdXj9fpOMdhyjXeIMyXzGwM1Ud3cnR2LUMIfBtOHBKgYKSMmFiiTcwBOAqgEsMLQTZVcvU8orlUR0CaIp6hSc4jDcW0TGDOMoPlcLmg4rq1noCKqm361phrJtRue0ZDeNLBI1ZeNsP90G0corh0SRAcjtcnV/bBi2lEQfjV0cxk5QNd9f4BopVGb/CJ3cyiu7SXwcUO3Vmav5YuxE+e4FpXAhKhu1vQjTpfkJ2Wldx6h5W2BmULyYbJ5XOQ160oe4vMgrHEzdaDkciogptUR4R1DN6fkYjX86C9nD12Wgl6gcFwLAbzU0K2p+WIXjmu3GJiXG/vCNw7MZeZmI2g+nB/P3wHQZkVsADze0K1g7sYFB2b5Sq/7upWFG2uSR+7F1aGEfzYx7TN001OAOEYsLpCynAkvEuOX3I0sUAzGmwDaiHEte12dUe+55yRhFAHVAH1DzKl+mBmu/4/YcTXxY0atVTWErt5r6GbRgK5OJxfq82VhpsZvMzB3yJNrsHIKx7WLTFg15OXkNhACvx/Rra15Otc+gI8NeQPpbZng6YZuzczTQD4D8JTbMutapnuHjRkzhj20yclqm5fd7uzs3LLkuJPBTstk7I8EzaYBW6ZaHGhIhONaIwNrMkNiGoAJ+ZIGwHkAaqyqIfGuoZstfeo+4X+FmRJ9hkS61fmbiajSWyIr7OulUo1FCF5EjAq1rsYiEbUT0CFsuqrGoqpiQbyKbRrLhKkA6SCe4+wnnIKkVk/qoa3OWCz2nWZms89YdJp7WkEoiy8DeBysuNDiYbHDFnI7M58YTAiE49pXjkcISyExH4ASAgBBKc78QiB9a0fkHQJwzlsin8+RPp92e7zlW6rbb6cN/U/sZRl+icFvR3VLGYC69uphPjt1hIBHC0ofNx6u2AMoKYuxsFfseW9eAHHE0K11+YjDMe1jEBaW9Qyf6Io96uFWAqoGFXsu+f3KW2ZeHA1aO+5L3vbevKCgR7mECLiC3mbeIAT9PCSCPrsMCvzC3AW4C0wCwMgh/YXJrdWh/mn7Fz0YTTqwJtqzAAAAAElFTkSuQmCC"
+                                    width="30" height="30" x="228" y="1282" />
+                            </svg>
+                            <h4>Cross Browser Compatibility</h4>
+                        </div>
+                        <p>Donec ullamcorper nulla non metus auctor fringilla.
+                            Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="other-f-card">
+                        <div class="other-f-card-head">
+                            <svg width="24" height="38" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="791 1278 24 38">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAE1UlEQVRIS62Xf2xTVRTHv+e1dECEMUVDolkI8JdR1BmUyP7AsOy9MlhfC4wEQvwRf8W5viL8QUzQhzGEGMz23oCoJEZDNg1je69Dt9sJyh8QZzRD0ZhoMCFEE0JAQAw/uvYdc2db265dGez+89Lcc8/nnnvP+Z5bwi2MaH9DLaWUxUTKXGnO7F1gv3fKbj5yttJyKmewta/xvpTP9xozbwCwMGOXynz9me/vRNTtT6f37I4MnS/laxzANE3l0mPDW8Aw5WYBOsDkxdPp1Hd7I0cvSietfSvu8fn8S4iVEMCbABAIZs3Jpe+ZpunlgwoAbQPB2ZTkHgIaAXygJPmN9pbEXxMdw+aD6t1egHYCeJmBIQ7Qus6Vg39n1+QALx1ePXNGevQIgDowb7TCid5K55s/bzjqGhB1ARi57pvW8OHqw9fkfA4Qc7SPmbAJhLAVEv2TcZ61NeJaMxgOMQ50hMWzOUDMCQaZeACgtyx98O3bcZ6DuME3Ad7BQJOti4GxCAxXGwEwo6b6xsPm08eymXJbHPPr5f5LV6b/BOC6pYs6anPUJxSibxm80dYT3bfltWhR1FU3EKjLY36SDFfdAdDrXoDmdq4cvDkVgLaBYJWS5AtE1E5RV+snIGDpQpsK5//fhSbANCojOAnGcSucaJtSgKN2glBP0bj2AzFOWLponVKAq+1lwjIyXO0rAJctXUTyAbKqfTe5Ll1FI/mVeas2hqv1gVFNUUfbScALNT8unZevI+bBdYFLgaunAe629MS2UtEZrroLoA01yVmLzJaeZNZmTM8eGT4Hov0UdRufIignmNFgh8XRfEfRuPoKMe1WklxbrEkZDTrLxFvtUOL9gnWOtoIIRxjeMgKDjLg6wqDzti7UfMNsFMT4qCMspLrmRszRTCY8X7z7scJ11CEQ7rVCibqxSo66WpiAPgYiti6c4ijAtEvh6fM7wu5lORdz9Dke3TgD4m3Fu4/FtQgzesG8VgpmTuwMJ3gY5C2Z5vHi/OZRKopyu5dNalRRpEx8b+miqUBN23qDDyg+PgXiYas50QR5eJkhlRbA/I6wWP5fBNoxAGeyijlmxpApLwh43EvTo51rBv8oAMgfm93gag8spbrV0sW+yQBiTjDGxO1EvKojlPgiu3Zcy4y62n4C1rOSeijb1CtFEDvUtID96Z8Z6LJ18WL+HY4DyAtkuvELMYayR1AJYLjqZwDVewF6sLgoS74qMvm/h5XUAhnFRIA2J7hQIf6NiVuLM2rcHWRDy/Tnc8z8jh1OvDsRIOqo24loq5KcNa+9ped6ccWXfRcZbvAQMc+VmTMRwHC1b4hwtiMk1peSk/IAR93CRNttXcwpC9DFc0Zcuwpgu6WL9skB4to6MA5WUWB20kt2lqoDGmXZCS+C0GKFRM+kADFXbWDQlwD+BDAHgJ+Bc5mLmwdAPg6kdNwP8hqt0JC0HTfKHlHM0eYDGHvbVBqs4FMrJH6dFCBrHO3T6hVC9rFb4MNjpOyIOD7RBspGkAO42mUCqks5YeCKTII7A/Q31Cppv1LKiedLeZX+I1SOwFH3KaCZJQHga3Y48eqdReBqnyuMu0oCCP/Yulh1R4BKGVRpvuIRSQeZp/0zBTLM+KSg4ZQh3RIgk6qL8n14jNOVUlTa/wsRf1/+i03A3wAAAABJRU5ErkJggg=="
+                                    width="24" height="38" x="791" y="1278" />
+                            </svg>
+                            <h4>Creative Idea</h4>
+                        </div>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="other-f-card">
+                        <div class="other-f-card-head">
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="227 1429 32 32">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACZElEQVRYR73WP2gTcRQH8O+7pKKgODjp4tJVcXA3iHCJYi9NjYPo5iSaS0FsXCSgEKWF/BN0cBDFJal6J+IlwcHiIII4OTjoIorQRStFoia/J4dN6V3O5Jfkl96W4/1+73O/9/LuCJJXyoo+1UB3C3FnUXKJVBhJRQFIWdHvGlO2MO0UZNfIxHkAyUoytDe8smsh0Vj2L+4FSD/Udxdm6l9lEvpjPADT1vNgOi7aFCnPOJ83BptWNCcE1coJZ2nj/ZQVzRBwmbXWvtLU80+DIjyAWVufFEwvADSDEAGn4ibPAXyjGK9nBk3uxnf1wD8Eqiz4TCnReNdrU9OK3QLEyrDJAwHDPMUoawb5F2RCxIt5o/5hlIQ9m/B/G5uWfh2gOQBfNOKISgSZtn6ehDbpJhfES6V47bG3+9eTd253IWYryW08sZrrBJAmbsoiybSjdxg4uNYQD4pGbb6zUTab1b4deH0f4FO+0/EgLtlTO5r4/bITE4J2Nm88eyNTqr494A6nPVtW73kQjD8gLKsoR1+A+xQ+xCtqhU5zuN0AsHVUhBTAg2BOQsMJ0aK3WojdoTUSIhBw4VHskH/kjgvRBVib7TkmjpWMes3fSOvlUHQSHkDKil0k8HzQbJ+rHNn5c/tEs3zU+aUS4QGkn8QOgxEpGM6Vfq9jVQjpJgz6HlCBGAmgojGlAWlbP9YW2vvytPNRZWNKA/qN1WHLoQwwbDmUAoZBKAcMihgLYBDE2ACyiLECZBBjBwQhAOwH4yoY1zYF4PuoOQkgDNDtouGc2zSAF4EfbnIQeFMBHUQ1WRVucvf3XzNfxKaiL+cUAAAAAElFTkSuQmCC"
+                                    width="32" height="32" x="227" y="1429" />
+                            </svg>
+                            <h4>Pixel Perfect</h4>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                    <div class="other-f-card">
+                        <div class="other-f-card-head">
+                            <svg width="38" height="36" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="784 1427 38 36">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAkCAYAAADl9UilAAAEwUlEQVRYR+2Ya2wUVRTH/+fuo6URoYlEa0SjJEokYmJIJEKCoHZnCqWzEIvxAfqhgkh3iy9MNLLClxqK3dkqGEwQA0YpgZ1tbXe2EW3iAzAxIsZEo0DiswSjFiJdt917zG27ZC3tlpku4Yv348w95/zuec4dQhHX2o6qa3xZOR0sJ3my3p4ry8+diCzsHnBjgtwI5cs83V591UA2Uw/QQwBmjND3N4BOIjKjNclPndiaEFjY0lcyOEbAADHtkULaLMX3UtKA8HGFyMp5IHoAwByA92a83ie2L+n482IAXYOFrUAjQBsAbCMufSEatP4ay2BDXDeYeBuAXsryoujy1G/jwbkCCyf0OjDvIKa10WBy+3hG1Pt1ifuu9UhvN4jP9E5Jz9+1sDtdSG5csLWtd1/hLylZAEnTJPCTAI4z4RsAr5uG/dzFQOX21Mf1GYL4GBFtjdYkX3INFkpoq4jxKoByBs4QMAWABPCLyEy+pbl2X58TMLU3lNA2EuNZ4tLrCoV/TI+pxAb4bYDeAGUiZs3BU6od+DNyjQQfjwVTu51Cqf31rfo04eceIqqL1iR3jqVjVLCGuDGVKf0jA3tjhl3nBqCQTNjSDhHju2jQftQRWNjSVgPYDuqvUJ4qPljgPYCuNg174UWBrWuvnCmywiSgEuAjppGaW2wopS9saW8BrDMoKpi+ypbgw5aq5D/5ts6HMhTX7iGCxcBJwbQhaiRtEPhSgIUs7XnB0CShgoCbGehRBWEG7T05e4Ngw2X8JQPdnszkFW6qbV1b5Y1K12tLu046OcyT+6tu8An5MhNWAbzJNFIblfwgWNgKxME021cmZzcFutR8c7wa4pqlhKJB23AsrNqIpT9D4C0CtLTZSLbT4BdBv/wVRKvNmuSbbpQqmYmCDedeEsD1pmHPouE5FpdZmt6yPPnz5QSrj+uVgjhF0nMrhazAYwTaaRr2uOOpEHQxPKbGn89fehaEWmpIaMuYsb/fJyq2Le7suawe69RLRIbTRPQwqWrySHGCGA9Gg/a7lxXsQOB2IegoSC4Yqsq49jkI3vKjc+dEIhE1pB2vYoSywdJiEliZPnV62iBYQ5u+iCUfBLDF6adM7gQTBQsd0OaTwEfMvCkWTG0+n/DhhPYiGJsZ2O3z+J7aWt3+uxO3uQZjUKhNW0GMHQCOlWcmL4rU7sv8pxJDicAaYmoaarykesoxYpwZCzDrweGWpcnDo/Wx9ZZezXzB5eS8Kob0QIgKMGsAZgFok356pKUqOWjvghahGq43k60jogCAmxgoK+C5xphhN44GFrb0dxi8uJDXCTgN8BdM2BWrSdn5eyfUu/IVuQ7lGOT/gzkppFFzzKmCYrWLkXZdhTJsaesB8ZlpdB4pBBa2qu4E5F2mYTc7PbBjsEjr/f4//Gc/JmAmICpzcCOTfxiqC4wfeqem5413wS2Kxza03julz+/tUnAssTi2zP4kHywHxcC3kzIDla/UftB7yT2WM5AHdxsJWoIsh9Q7yWgigY6JQE04+RVc2u/tAHAHGEM/SggVDHzt1lO5gzvOsZEheby9umxStv99ALk74qHSzIDuJnxF7/x5cOjz+JbsqG4/5zSnipL8oxlVcOp5MaCUnn8B0GwgMjw3h6cAAAAASUVORK5CYII="
+                                    width="38" height="36" x="784" y="1427" />
+                            </svg>
+                            <h4>Free Forever and Ever</h4>
+                        </div>
+                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section TEMPLATE goes from here -->
+        <div class="template-wrapper">
+            <div class="section-template">
+                <div class="template-heading">
+                    <h1 class="f-h1">Looking for the perfect template to use?</h1>
+                    <div class="gl"></div>
+                    <p class="f-text">
+                        Donec id elit non mi porta gravida at eget metus. </p>
+                </div>
+                <div class="template-body">
+                    <div class="t-body-images">
+                        <img class="t-b-img" src="./public/images/Hand@1X.png" alt="">
+                    </div>
+                    <div class="t-body-content">
+                        <h1>Responsive Ready</h1>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Praesent commodo cursus magna,
+                            vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.
+                            Maecenas sed diam eget risus varius blandit sit amet non magna.
+                            Vestibulum id ligula porta felis euismod semper.</p>
+                        <p class="t-b-content-paragraph">
+                            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                            Integer posuere erat a ante venenatis dapibus posuere velit.
+                        </p>
+                        <p class="t-b-content-paragraph">
+                            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section TESTIMONIAL goes from here -->
+        <div class="testimonial-wrapper">
+            <div class="section-testimonial">
+                <div class="testimonial-content">
+                    <h3 class="main-testimonial-text">
+                        This theme is beautiful, elegant and easy to customize.
+                        I’ve been able to build an amazing site in just a minute.
+                        Thank you very much for creating this impressive template!
+                    </h3>
+                    <div class="person-info">
+                        <h5 class="person-name">Valeria Boltnev</h5>
+                        <h5 class="person-status">Director of Acme.Inc</h5>
+                    </div>
+                </div>
+                <div class="testimonial-avatar">
+                </div>
+            </div>
+        </div>
+        <!-- section DETAILS goes from here -->
+        <div class="details-wrapper">
+            <div class="section-details">
+                <div class="details-content">
+                    <h1>Built with High Attention to Details</h1>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                        ut fermentum massa justo sit amet risus. Praesent commodo cursus magna,
+                        vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed
+                        consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.
+                        Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante
+                        enenatis dapibus posuere velit aliquet.
+                        Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <div class="details-map">
+                </div>
+            </div>
+        </div>
+
+        <!-- section PRICING & PLAN goes from here -->
+        <div class="plan-wrapper">
+            <div class="section-plan">
+                <div class="plan-heading">
+                    <h1 class="f-h1">Pricing & Plan</h1>
+                    <div class="gl"></div>
+                    <p class="f-text">
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+                        Donec id elit non mi porta gravida at eget metus. </p>
+                </div>
+
+                <div class="available-plans">
+                    <div class="plan-card">
+                        <h5 class="plan-name">BASIC</h5>
+                        <h1 class="plan-price">$199</h1>
+                        <h5 class="plan-length">/month</h5>
+                        <p class="plan-details">
+                            Justo Fringilla <br>
+                            Mollis Sit Nullam <br>
+                            Ultricies Purus Amet <br>
+                            Cras Incepto <br>
+                        </p>
+                        <button class="plan-action-btn">SELECT PLAN</button>
+                    </div>
+                    <div class="plan-card">
+                        <h5 class="plan-name">PLUS</h5>
+                        <h1 class="plan-price">$399</h1>
+                        <h5 class="plan-length">/month</h5>
+                        <p class="plan-details">
+                            Justo Fringilla <br>
+                            Mollis Sit Nullam <br>
+                            Ultricies Purus Amet <br>
+                            Cras Incepto <br>
+                        </p>
+                        <button class="plan-action-btn">SELECT PLAN</button>
+                    </div>
+                    <div class="plan-card">
+                        <h5 class="plan-name">PREMIUM</h5>
+                        <h1 class="plan-price">$699</h1>
+                        <h5 class="plan-length">/month</h5>
+                        <p class="plan-details">
+                            Justo Fringilla <br>
+                            Mollis Sit Nullam <br>
+                            Ultricies Purus Amet <br>
+                            Cras Incepto <br>
+                        </p>
+                        <button class="plan-action-btn">SELECT PLAN</button>
+                    </div>
+                </div>
+                <div class="included-services">
+                    <div class="included-heading">
+                        <h3 class="f-h1">Included with all Plans</h3>
+                        <div class="gl"></div>
+                    </div>
+                    <div class="included-services-columns">
+                        <div class="service-column">
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Maecenas faucibus</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p> Cras justo odio</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Fringilla Mattis</p>
+                            </div>
+                        </div>
+                        <div class="service-column">
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Maecenas faucibus</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p> Cras justo odio</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Fringilla Mattis</p>
+                            </div>
+                        </div>
+                        <div class="service-column">
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Maecenas faucibus</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p> Cras justo odio</p>
+                            </div>
+                            <div class="row">
+                                 <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="747 2123 26 26">
+                                <image
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB1ElEQVRIib2WO44aQRCGCwKk5QBEDlhHJA44gn0IgpU4wIbcoNw1ItzAGemoq37cmYVIN0JyTuwEZIkLIEtE7WAGNLwH0M4vTdJdPV9X16ObqKSYuc5A2wFdB3QZaDNzvez6yz8PoZFA+zLWqUDXAt0IdJF/G4GuZazTBNrnEBp3QRz8i0CXYjoX6GBo1il6wMz1oVlHoIPcZungX0oD3kJ4EngT+JUz68UYa9fWxBhrzqwn8CuBt7cQnq5CEtN3gc44TVuld5eL07Ql0Fli+n4RlnmiM56MmrdCdrDJqCnQmcDbSYMsJn51jydHsDRtCfzqKGYcQkOgS2fWexSyVRYzXe5lYwLti+m8TOBP6ftP/eq8/1IcizHWxHSeQPu7wbxOBvdAxOybQP8J9PfRHHQgY50SUVYPAl0PzToPQP6w958O5/M6WzNznRhoC3Rzazu5Bik4sWGgTQ7oCnRxyvBczMpAdrbQhQO6Z0FZJtovGevrvZA90Lmj48momXeJuIXdCtk7ukvJsA/zP26BEB0kA9Hl9N6Dwf+VkD6XgRAdpDfR9YLN+pcNWfVzWcjJgq2sBRFV1FS3quSaIKrw4tvCPvwqL+rDHydFVfLcOoI++ID8D0kZElwGnslbAAAAAElFTkSuQmCC"
+                                    width="26" height="26" x="747" y="2123" />
+                            </svg>
+                                <p>Fringilla Mattis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="need-support">
+                        <svg class="need-s-icon" width="44" height="44" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="728 4394 44 44">
+                            <image
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAD7ElEQVRYhdVZvU7jQBBeJNoICZ6AggY4negPgZTgnUUoT4DEAxDv2BShpaTgGSgpUuzOhoYCKcqdgnQPgZB4AnQNP+LnCjtk7dg+b0JO8kgrRc545vN4dubbMWMzkJPe9vxJb3t+FrankrZp1lB5e2jEGRJcI8E9EjwhwUe8nuJr12jEGSpvr22atf8O1FdiCw1cSIJHC1ypJQke0cCFr8TWzIGigh9IcOMKsmDdoIIfXw60bZo1JHH+hUBTS5x/War4RmyghtuUk3ckrpFg4AzOwC8kUJEN67qGW9+IjanAhsQbSPAn6ZT3fcW/M8aYNHDgDFjDPmOM+Yp/R+L91P9/QuKNycFqeLGMPSNByD7Y3FDnUNWXkODNAfBr2OGLn04+2BwShAk/Gl6cQftGbKQi+5C3OTKiVLR6OcHZRIIHO9Kl06NtmrVUzj6EtPstTz8wcFQWcKBFkGcnpN1vCdAabkttxEQ1iF7PZpG+vNxZKQu41fWWi2yFxDeTaSjOi8FGdXYUEQNHRfo+iVUkuHJIiauwy9eKbI69saI6jVZTkAQ/7Q02pmt4K96IrlXiRWrh54L4YHOS4Kd1z012tJTYspTeh6Ur+8H4aQaYgTQcpfLWjzuNheNOY0Eqb10ajphZr/lpnv2o5I3qdGYbRwMXlkGVZ0xq4aec30kN9dyIfd4HdSS4S9xreCtPP9BAIz24SPzZNs1agsgY+IUa9hM1kzEWdvmavSkkwe+0TpGEHb4oCX5boJ99Equ2zqGqL8UNaWD5eUxUDFTeXk7OvSJBL9AiaHW95dQGu3MBa4NORfpKXu6sRJuN9zGvESlvbwQ44rNOm6dMGuRJnB5um9WIsxHgiHy7GBhMCtby6Uqcru2b752iazhOCziuHi6A723AT06Albc+NWDlrTsCfmKMRQdG13w67jQWpgV83GksuPo96W3PVw8wYxVLiRhw5TZdxcpa5RpHfmt+Q+L9wMBRTNRn0ppbXW850CJAgh5GdGAci92ax8gPwUAaODhU9SXbWUzYPznw1ORHw0ua0Icdvoga9uNxwNDP49hxyaaXgQbKcxoTd/vpJ6aXRUQeo9lFnA4peslYBQl8/FSlj0hSCz81tyi7nouIe+kjEmPuh9Cwy9fQ8RCaJuxpcTqEMuZ+zI+JfblSeLmzUhgA12M+YxMMUqJyVApw0RubeJDCWPaoKi/Sce0smRK8n2kjSsXJRlWjJ04NA6PfiWFg3ASyC31OI0rU9uEw0J5vTDIMTIAuGLeihn3XKiENHDA2g3HrUPIH2qDsbuSwBvEw/OsH2kOp1CcDWyrzUSYtlfnslZbKfFj8l8zy0+1fWLoaSJJAp+EAAAAASUVORK5CYII="
+                                width="44" height="44" x="728" y="4394" />
+                        </svg>
+                        <h1 class="f-h1">Need Help?</h1>
+                        <div class="gl"></div>
+                        <p class="f-text">
+                            Contact our Customer Support that is always ready to help you with any possible
+                            questions, problems or information.
+                        </p>
+                        <h4 class="email">support@wapik.com</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section CALL-TO-ACTION  -->
+        <div class="call-to-action-wrapper">
+            <div class="section-call-to-action">
+                <div class="call-to-action-heading">
+                    <h1>Do You Like Wapik? Download it Now</h1>
+                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                </div>
+                <button class="call-to-action-btn" type="">download now! - FREE forever</button>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <div class="main-footer">
+                <div class="footer-column">
+                    <h4 class="column-heading footer-logo-text">WAPIK</h4>
+                    <a class="column-data" href="#">@: <span class="f-email">hi@wapik.com</span></a>
+                    <li class="column-data" href="#">p: +62 202 555 0117</li>
+                    <li class="column-data" href="#">a: 610 Overlook Circle Suite 323 Kalamazo, MI 49009</li>
+                </div>
+                <div class="footer-column">
+                    <h5 class="column-heading">Company</h5>
+                    <a class="column-data" href="#">Home</a>
+                    <a class="column-data" href="#">About us</a>
+                    <a class="column-data" href="#">Pricing</a>
+                    <a class="column-data" href="#">Contact us</a>
+                </div>
+                <div class="footer-column">
+                    <h5 class="column-heading">Others</h5>
+                    <a class="column-data" href="#">Help & Support</a>
+                    <a class="column-data" href="#">Privacy Poacy</a>
+                    <a class="column-data" href="#">Terms</a>
+                    <a class="column-data" href="#">Sitemap</a>
+                </div>
+                <div class="footer-column newsletter-column">
+                    <h5 class="column-heading">Newsletter</h5>
+                    <li class="column-data" href="#">
+                        Subscribe to our newsletter and get all
+                        the cool news
+                    </li>
+                    <a class="column-data column-input">
+                        <input type="text" class="newsletter-email-input" placeholder="Enter Email">
+                        <svg class="newsletter-email-icon" width="18" height="18" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1246 5099 18 18">
+                            <image
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAB3UlEQVQ4jaWTMWgUURCGxyiinWAViNrERAtLOyWHiff+dxZaeDY2Inbnvnl7pEyxoKSwspN0Ilant+/fO0sllSIIKSysUoichUUq4SAYsxbuheW8y0Wdcmb43sz3GJH/jGZam/M0jX8G+LaZ9hnWlNjRDCt/Dwg3TriAVSX6SnxXItcUlw4MiFv14452WYktJbYc7bILNlKin7TqRycC6q36YZ/Zu0p8UaLvAlY1w3ySJFOOeK7E64kQ1zHXleaTEjs+w5pvm+kotQue9qaIiBK9ff3ENJeVeKdE7ogXzbQ2JyLyexX7UnI5FGdmdqyfmLULSrxSIteAN9rBRRGRO+uVYz7gqRK9Rrp4UkTE09z7w0+jXTvjiGdK7CqxEQVbHdSarJ5S4oMSP31AZW/tYT8umFtKbCuRK/HRp9fOD2pRaheU+FZM+KA8/Ug/rnv1rKN5WPxMrjTvfbCPlfhRPPA2Wa8c2VOwnx8RkSRJpmKaJUd8LgC5Ernv2CvlvpF+RoUPYBmkRC/OzOxYP+NCaZ+UIF+V2FSip92l02P9jARlWCkguy5gMWrbmQK26QMqB76vwkGuxKNBrgTbPvB9+WCtEhvDzSXYZD8iIve71XOaYX5ULWrbGZ/Z28P5X0bZKZeJn5u8AAAAAElFTkSuQmCC"
+                                width="18" height="18" x="1246" y="5099" />
+                        </svg>
+                    </a>
+                    <a class="column-data" href="#"></a>
+                    <a class="column-data" href="#"></a>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <a href="#" class="bottom-footer-rights">All rights reserved 2015.</a>
+                <div class="social-links">
+                    <div class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </div>
+                    <div class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-discord" viewBox="0 0 16 16">
+                            <path
+                                d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
+                            <path
+                                d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
+                        </svg>
+                    </div>
+                    <div class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-telegram" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                        </svg>
+                    </div>
+                    <div class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
