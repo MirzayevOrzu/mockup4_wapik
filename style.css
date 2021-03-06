@@ -470,7 +470,7 @@ h6
 .details-map {
     width: 50%;
     height: 300px;
-    background-image: url('./public/images/Vector\ Smart\ Object@1X.png');
+    background-image: url('./public/images/map.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
